@@ -1,0 +1,127 @@
+{
+	"main": {
+		"name": "Siddharth Kanna",
+		"occupation": "FrontEnd Developer",
+		"description": "I eat, sleep and breathe code",
+		"image": "profilepic.jpg",
+		"bio": "Hey there, the name is Siddharth! I've been coding for 2 years and I am a certified Full Stack Developer in three programming languages - Python, Java, and MERN. I have a passion for learning new technologies and expanding my programming knowledge while discovering new techniques and solutions with each software project I create. The process is very rewarding and the journey keeps me motivated. I enjoy collaborating and contributing my skills and experience whenever I can. I come from a business management background with 10+ years experience overseeing daily business operations in the airline logistics field. I'd love to work with you on creative new projects!",
+		"contactmessage": "Get in touch with me!",
+		"email": "fafrago@gmail.com",
+		"phone": "+13104615012",
+		"address": {
+			"street": "SoCal",
+			"city": "Los Angeles",
+			"state": "California",
+			"zip": "USA "
+		},
+		"website": "https://github.com/fdrive422",
+		"resumedownload": "http://www.linkedin.com/in/ffrago",
+		"social": [
+			{
+				"name": "youtube",
+				"url": "https://www.youtube.com/channel/UCG768a9GXk8zvRd45BHIUmQ",
+				"className": "fa fa-youtube"
+			},
+			{
+				"name": "facebook",
+				"url": "https://www.facebook.com/francis.frago",
+				"className": "fa fa-facebook"
+			},
+			{
+				"name": "linkedin",
+				"url": "https://www.linkedin.com/in/ffrago",
+				"className": "fa fa-linkedin"
+			},
+			{
+				"name": "instagram",
+				"url": "https://www.instagram.com/fdrive",
+				"className": "fa fa-instagram"
+			},
+			{
+				"name": "github",
+				"url": "https://github.com/fdrive422",
+				"className": "fa fa-github"
+			}
+		]
+	},
+	"resume": {
+		"skillmessage": "My Programming Language Proficiency",
+		"education": [
+			{
+				"school": "Coding Dojo",
+				"degree": "Full Stack Software Development",
+				"graduated": "July 2022",
+				"description": "Belt Certificaiotn in Python, Java, and MERN"
+			}
+		],
+		"work": [
+			{
+				"company": "Freelancer",
+				"title": "Software Engineer",
+				"years": "July 2022 - Present",
+				"description": "Web & Mobile Software Development"
+			},
+			{
+				"company": "Air Fayre",
+				"title": "General Manager of Operations",
+				"years": "November 2009 - Present",
+				"description": "Leading a logistic service provider in the aviation industry."
+			}
+		],
+		"skills": [
+			{
+				"name": "ReactJS",
+				"level": "85%"
+			},
+			{
+				"name": "Python",
+				"level": "80%"
+			},
+			{
+				"name": "Java",
+				"level": "80%"
+			},
+			{
+				"name": "Git",
+				"level": "90%"
+			},
+			{
+				"name": "JavaScript",
+				"level": "85%"
+			},
+			{
+				"name": "Web Development",
+				"level": "90%"
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "Dev Project Tracker",
+				"category": "Java, MySQL, SprinBoot",
+				"image": "DevProjectTracker.png",
+				"url": "https://github.com/fdrive422/DevProjectTracker"
+			},
+			{
+				"title": "Rental Ratings",
+				"category": "Java, MySQL, SprinBoot",
+				"image": "RentalRatings.png",
+				"url": "https://github.com/fdrive422/RentalRatings"
+			},
+			{
+				"title": "Uber Clone",
+				"category": "React Native, Redux, Google Map API",
+				"image": "UberClone2.png",
+				"url": "https://github.com/fdrive422/Uber-2.0-Clone"
+			},
+			{
+				"title": "LinkedIn Clone",
+				"category": "ReactJS, Redux, Firebase",
+				"image": "Linkedinclone2.png",
+				"url": "https://github.com/fdrive422/LinkedIn-Clone"
+			}
+		]
+	}
+
+}

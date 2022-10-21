@@ -1,0 +1,29 @@
+.Intro {
+  color: aliceblue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Intro > h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.icons {
+  padding-top: 40px;
+}
+.type {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .Intro > h1 {
+    font-size: 60px;
+  }
+}
