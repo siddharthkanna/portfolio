@@ -25,7 +25,6 @@ function Nav() {
         <li>03.Skills</li>
         <li>04.Projects</li>
         <li>05.Contact</li>
-         
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
