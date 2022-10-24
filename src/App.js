@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Intro />
+      <Intro data={resumeData.main} />
       <About />
       {/*<Skills />*/}
       {/*<Projects />*/}
