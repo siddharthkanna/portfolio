@@ -28,22 +28,34 @@ function Intro() {
       </span>
 
       <div className="icons">
-        <AiOutlineGithub
-          size={35}
-          style={{ margin: "10px", cursor: "pointer" }}
-        />
-        <AiOutlineLinkedin
-          size={35}
-          style={{ margin: "10px", cursor: "pointer" }}
-        />
-        <AiOutlineTwitter
-          size={35}
-          style={{ margin: "10px", cursor: "pointer" }}
-        />
-        <AiOutlineInstagram
-          size={35}
-          style={{ margin: "10px", cursor: "pointer" }}
-        />
+        <a href="https://github.com/siddharthkanna" style={{ color: "white" }}>
+          <AiOutlineGithub
+            size={35}
+            style={{ margin: "10px", cursor: "pointer" }}
+          />
+        </a>
+        <a
+          href="www.linkedin.com/in/siddharth-kanna-823bb5219"
+          style={{ color: "white" }}
+        >
+          <AiOutlineLinkedin
+            size={35}
+            style={{ margin: "10px", cursor: "pointer" }}
+          />
+        </a>
+
+        <a href="https://twitter.com/itssid07" style={{ color: "white" }}>
+          <AiOutlineTwitter
+            size={35}
+            style={{ margin: "10px", cursor: "pointer" }}
+          />
+        </a>
+        <a href="https://www.instagram.com/siddharth__kanna" style={{ color: "white" }} >
+          <AiOutlineInstagram
+            size={35}
+            style={{ margin: "10px", cursor: "pointer" }}
+          />
+        </a>
       </div>
     </div>
   );
