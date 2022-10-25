@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 3fr 1.4fr;
   grid-gap: 40px;
+  height: 50vh;
 }
 
 .a-des {
@@ -18,6 +19,7 @@
 
 .a-des > p {
   font-size: 1.3rem;
+  font-weight: 200;
 }
 
 .a-img {
@@ -35,22 +37,30 @@
   .about {
     display: flex;
     flex-direction: column;
+    height: 85vh;
+    
   }
 
   .a-des {
+    margin: 35px;
     text-align: left;
+    
   }
   .a-img {
-    padding-bottom: 60px;
+    display: inline-block;
+    margin-bottom: 50px;
+    
   }
 
   .a-img > img {
     width: 200px;
     height: 250px;
+    
   }
 
   .a-des > p {
     font-size: 18px;
+    font-weight: 200;
   }
 }
 
