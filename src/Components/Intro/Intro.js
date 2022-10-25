@@ -12,7 +12,7 @@ function Intro() {
   return (
     <div className="Intro">
       <h2>Welcome,I'm</h2>
-      <h1>Siddharth Kanna</h1>
+      <h1>Siddharth Kanna.</h1>
       <span className="type">
         <Typewriter
           className="type"
