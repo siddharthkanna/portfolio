@@ -6,19 +6,11 @@ import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 
 function App() {
-  const [resumeData, setResumeData] = useState({});
-
-  useEffect(() => {
-    fetch("./resumeData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setResumeData(data);
-      });
-  });
+ 
   return (
     <div className="App">
       <Nav />
-      <Intro data={resumeData.main} />
+      <Intro />
       <About />
       <Skills />
       {/*<Projects />*/}
