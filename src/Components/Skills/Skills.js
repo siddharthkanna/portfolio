@@ -10,10 +10,9 @@ function Skills() {
   return (
     <>
       <div className="section main">
-        <h1 className="title">02.Skills</h1>
-
+        <h1 className="section__title">02.Skills</h1>
         <div className="techsection">
-          <h2>Frontend</h2>
+          <h2 className="fe">Frontend</h2>
           <div>
             <SiJavascript />
             <h5>Javascript</h5>
@@ -39,7 +38,7 @@ function Skills() {
             <SiFirebase />
             <h5>Firebase</h5>
           </div>
-          <h2>Programming languages</h2>
+          <h2 className="fe">Programming languages</h2>
           <div>
             <DiPython />
             <h5>Python</h5>
