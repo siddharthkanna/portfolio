@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import Nav from "./Components/Nav/Nav";
 import Intro from "./Components/Intro/Intro";
