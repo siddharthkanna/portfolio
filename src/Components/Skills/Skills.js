@@ -5,12 +5,15 @@ import { SiHtml5, SiCplusplus } from "react-icons/si";
 import { DiCss3, DiPython } from "react-icons/di";
 import { SiJavascript, SiFirebase, SiJava } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
+import { Fade } from "react-reveal";
 
 function Skills() {
   return (
-    <>
-      <div className="section main" >
-        <h1 className="section__title" id="skills">02.Skills</h1>
+    <Fade delay={500}>
+      <div className="section main">
+        <h1 className="section__title" id="skills">
+          02.Skills
+        </h1>
         <div className="techsection">
           <div>
             <SiHtml5 />
@@ -55,7 +58,7 @@ function Skills() {
           </div>
         </div>
       </div>
-    </>
+    </Fade>
   );
 }
 

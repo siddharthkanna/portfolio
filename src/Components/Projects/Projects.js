@@ -2,10 +2,11 @@ import React from "react";
 import SingleProject from "./SingleProject";
 import "./Projects.css";
 import { projectsData } from "./projectsData";
+import { Fade } from "react-reveal";
 
 function Projects() {
   return (
-    <>
+    <Fade delay={500}>
       <div className="projects" id="project">
         <div className="projects__header">
           <h1>03.Projects</h1>
@@ -26,7 +27,7 @@ function Projects() {
           </div>
         </div>
       </div>
-    </>
+    </Fade>
   );
 }
 

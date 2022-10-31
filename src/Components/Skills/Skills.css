@@ -1,12 +1,12 @@
 .main {
-  margin-top: 4em;
+  margin-top: 10em;
   color: aliceblue;
 }
 
 .techsection {
   width: 100%;
   text-align: center;
-  height: 70vh;
+  height: 60vh;
   /* max-height: 400px; */
 }
 
@@ -74,12 +74,12 @@
 
 @media only screen and (max-device-width: 480px) {
   .techsection {
-    height: 100vh;
+    height: 90vh;
   }
   .techsection > div {
     width: 40%;
     margin-left: 5%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     height: 18vh;
   }
 

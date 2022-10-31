@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 3fr 1.4fr;
   grid-gap: 40px;
-  height: 50vh;
+
 }
 
 .a-des {
