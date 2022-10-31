@@ -7,6 +7,7 @@ function About() {
     <div className="about">
       <div className="a-des">
         <h1 className="a-title">02.About me</h1>
+
         <p>
           Hello! I'm Siddharth, Junior Frontend Developer,based in
           Hyderabad.Currently I'm pursuing my undergrad in Computer Science and
