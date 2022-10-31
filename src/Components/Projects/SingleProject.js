@@ -9,7 +9,7 @@ function SingleProject(props) {
         <div className="projectContent">
           <h2>{props.name}</h2>
 
-          <img src="" alt="pro1" />
+          <img src={props.image} alt="pro1" />
           <div className="project__showcasebtn">
             <a className="iconBtn" href={props.demo}>
               <FaPlay className="icon" />
