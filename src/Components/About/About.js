@@ -4,7 +4,7 @@ import sid from "./sid.png";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="aboutt">
       <div className="a-des">
         <h1 className="a-title">02.About me</h1>
 

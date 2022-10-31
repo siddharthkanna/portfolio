@@ -3,6 +3,8 @@ import "./Nav.css";
 import { FaTimes } from "react-icons/fa";
 import { RiMenu3Fill } from "react-icons/ri";
 import { useState } from "react";
+import { Link } from "react-scroll";
+
 
 function Nav() {
   const [click, setClick] = useState(false);
@@ -20,10 +22,10 @@ function Nav() {
     <div className={color ? "header header-bg" : "header"}>
       <h1>{'{'}SK{'}'}</h1>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>01.Home</li>
-        <li>02.About</li>
-        <li>03.Skills</li>
-        <li>04.Projects</li>
+        <li><Link activeClass="active" to="intro" smooth={true} duration={500}>01.Home</Link></li>
+        <li><Link activeClass="active" to="aboutt" smooth={true} duration={500}>02.About</Link></li>
+        <li><Link activeClass="active" to="skills" smooth={true} duration={500}>03.Skills</Link></li>
+        <li><Link activeClass="active" to="project" smooth={true} duration={500}>04.Projects</Link></li>
         <li>05.Contact</li>
       </ul>
       <div className="hamburger" onClick={handleClick}>

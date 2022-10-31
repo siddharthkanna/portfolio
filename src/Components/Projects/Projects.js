@@ -6,7 +6,7 @@ import { projectsData } from "./projectsData";
 function Projects() {
   return (
     <>
-      <div className="projects">
+      <div className="projects" id="project">
         <div className="projects__header">
           <h1>03.Projects</h1>
         </div>

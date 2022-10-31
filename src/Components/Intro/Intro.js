@@ -10,7 +10,7 @@ import Typewriter from "typewriter-effect";
 
 function Intro() {
   return (
-    <div className="Intro">
+    <div className="Intro" id="intro">
       <h2>Welcome,I'm</h2>
       <h1>Siddharth Kanna.</h1>
       <span className="type">
