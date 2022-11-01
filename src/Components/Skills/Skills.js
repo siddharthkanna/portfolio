@@ -5,7 +5,7 @@ import { SiHtml5, SiCplusplus } from "react-icons/si";
 import { DiCss3, DiPython } from "react-icons/di";
 import { SiJavascript, SiFirebase, SiJava } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function Skills() {
   return (

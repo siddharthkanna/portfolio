@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import sid from "./sid.png";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function About() {
   return (

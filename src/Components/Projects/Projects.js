@@ -2,11 +2,11 @@ import React from "react";
 import SingleProject from "./SingleProject";
 import "./Projects.css";
 import { projectsData } from "./projectsData";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function Projects() {
   return (
-    <Fade delay={500}>
+   
       <div className="projects" id="project">
         <div className="projects__header">
           <h1>03.Projects</h1>
@@ -14,6 +14,7 @@ function Projects() {
         <div className="projects__body">
           <div className="projects__bodyContainer">
             {projectsData.map((project) => (
+               <Fade delay={500}>
               <SingleProject
                 key={project.id}
                 name={project.projectName}
@@ -23,11 +24,12 @@ function Projects() {
                 demo={project.demo}
                 image={project.image}
               />
+              </Fade>
             ))}
           </div>
         </div>
       </div>
-    </Fade>
+   
   );
 }
 
