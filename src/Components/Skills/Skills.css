@@ -44,6 +44,15 @@
   background-color: transparent;
 }
 
+.section__title {
+  letter-spacing: 4px;
+  font-size: 2rem;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding-bottom: 8px;
+  
+
+}
 @media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
   .techsection {
     height: 100vh;

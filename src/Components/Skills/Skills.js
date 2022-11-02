@@ -12,7 +12,7 @@ function Skills() {
    
       <div className="section main">
         <h1 className="section__title" id="skills">
-          02.Skills
+          03.Skills
         </h1>
         <div className="techsection">
           <div>

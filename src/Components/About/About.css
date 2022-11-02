@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: 3fr 1.4fr;
   grid-gap: 40px;
-
 }
 
 .a-des {
@@ -15,10 +14,12 @@
 
 .a-des .a-title {
   padding-bottom: 15px;
-
+  letter-spacing: 4px;
+  font-size: 2rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 8px;
+  display: inline-block;
 }
-
-
 
 .a-des > p {
   font-size: 1.3rem;
@@ -40,24 +41,20 @@
     display: flex;
     flex-direction: column;
     height: 75vh;
-    
   }
 
   .a-des {
     margin: 35px;
     text-align: left;
-    
   }
   .a-img {
     display: inline-block;
     margin-bottom: 50px;
-    
   }
 
   .a-img > img {
     width: 200px;
     height: 250px;
-    
   }
 
   .a-des > p {
@@ -102,5 +99,3 @@
     text-align: left;
   }
 }
-
-

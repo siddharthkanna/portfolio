@@ -24,9 +24,9 @@
 }
 
 .projectContent > h2 {
-    font-family: var(--primaryFont);
+   
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.525rem;
     line-height: 110%;
     text-align: center;

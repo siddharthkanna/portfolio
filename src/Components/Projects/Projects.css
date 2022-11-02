@@ -19,9 +19,11 @@
   }
   
   .projects__header h1 {
+    letter-spacing: 4px;
     margin-bottom: 40px;
     font-size: 2rem;
-    font-family: var(--primaryFont);
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
   }
   
   .projects__body {
