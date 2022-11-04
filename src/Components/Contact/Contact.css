@@ -75,7 +75,7 @@
     margin-bottom: 32px;
   }
   
-  form .action input{
+  form .action button{
     background: transparent;
     border-radius: 4px;
     border: 1px solid white;
@@ -89,7 +89,7 @@
     margin-right: 10px;
   }
   
-  form .action input[type="submit"]{
+  form .action button[type="submit"]{
     background: white;
     color: black;
   }
@@ -119,7 +119,7 @@
       display: flex;
       flex-direction: column;
     }
-    form .action input{
+    form .action button{
       margin-bottom: 10px;
       width: 100%;
     }
