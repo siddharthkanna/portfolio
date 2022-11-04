@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { useState } from "react";
-
+import { Fade } from "react-awesome-reveal";
 function Contact() {
   const [user, setUser] = useState({
     name: "",
@@ -51,52 +51,54 @@ function Contact() {
     }
   };
   return (
-    <div>
-      <form method="POST">
-        <div className="title">
-          <h2>05.Contact</h2>
-        </div>
-        <div className="half">
-          <div className="item">
-            <label for="name">NAME</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={user.name}
+    <Fade delay={500} duration={1000}>
+      <div>
+        <form method="POST">
+          <div className="title">
+            <h2>05.Contact</h2>
+          </div>
+          <div className="half">
+            <div className="item">
+              <label for="name">NAME</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                value={user.name}
+                onChange={getUserData}
+                required
+              />
+            </div>
+            <div class="item">
+              <label for="email">EMAIL</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                value={user.email}
+                onChange={getUserData}
+                required
+              />
+            </div>
+          </div>
+          <div class="full">
+            <label for="message">MESSAGE</label>
+            <textarea
+              name="message"
+              id="message"
+              value={user.message}
               onChange={getUserData}
               required
-            />
+            ></textarea>
           </div>
-          <div class="item">
-            <label for="email">EMAIL</label>
-            <input
-              type="text"
-              id="email"
-              name="email"
-              value={user.email}
-              onChange={getUserData}
-              required
-            />
+          <div className="action">
+            <button type="submit" onClick={postData}>
+              SEND MESSAGE
+            </button>
           </div>
-        </div>
-        <div class="full">
-          <label for="message">MESSAGE</label>
-          <textarea
-            name="message"
-            id="message"
-            value={user.message}
-            onChange={getUserData}
-            required
-          ></textarea>
-        </div>
-        <div className="action">
-          <button type="submit" onClick={postData}>
-            SEND MESSAGE
-          </button>
-        </div>
-      </form>
-    </div>
+        </form>
+      </div>
+    </Fade>
   );
 }
 
