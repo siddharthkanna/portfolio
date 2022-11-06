@@ -20,13 +20,13 @@ function Nav() {
   window.addEventListener("scroll", changeColor);
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <h1>{'{'}SK{'}'}</h1>
+      <h1 className="sk">{'{'}sk{'}'}</h1>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li><Link activeClass="active" to="intro" smooth={true} duration={500}>01.Home</Link></li>
         <li><Link activeClass="active" to="aboutt" smooth={true} duration={500}>02.About</Link></li>
         <li><Link activeClass="active" to="skills" smooth={true} duration={500}>03.Skills</Link></li>
         <li><Link activeClass="active" to="project" smooth={true} duration={500}>04.Projects</Link></li>
-        <li>05.Contact</li>
+        <li><Link activeClass="active" to="contact" smooth={true} duration={500}>05.Contact</Link></li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (

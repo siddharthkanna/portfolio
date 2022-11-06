@@ -44,15 +44,15 @@ function Contact() {
           email: "",
           message: "",
         });
-        alert("Details Submitted successfully");
+        alert("Details submitted successfully.");
       }
     } else {
-      alert("Please fill the details properly");
+      alert("Please fill the details properly.");
     }
   };
   return (
     <Fade delay={500} duration={1000}>
-      <div>
+      <div id="contact">
         <form method="POST">
           <div className="title">
             <h2>05.Contact</h2>

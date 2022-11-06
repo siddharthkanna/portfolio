@@ -83,7 +83,7 @@
 
 @media only screen and (max-device-width: 480px) {
   .techsection {
-    height: 90vh;
+    height: 100vh;
   }
   .techsection > div {
     width: 40%;
@@ -94,5 +94,9 @@
 
   .section {
     margin-top: 13rem;
+  }
+
+  .section__title{
+    font-size: 1.8rem;
   }
 }

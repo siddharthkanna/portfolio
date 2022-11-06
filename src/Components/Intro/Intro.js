@@ -20,10 +20,10 @@ function Intro() {
             className="type"
             onInit={(typewriter) => {
               typewriter
-                .typeString("Frontend Developer!")
+                .typeString("Computer Science Student!")
                 .pauseFor(2000)
                 .deleteAll()
-                .typeString("Computer Science Student!")
+                .typeString("Frontend Developer!l")
                 .start();
             }}
           />

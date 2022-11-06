@@ -1,4 +1,4 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,9 +18,14 @@
 .nav-menu {
   display: flex;
 }
+.sk{
+  font-family: 'Satisfy', cursive;}
 
 .header > h1 {
+  
   cursor: pointer;
+  letter-spacing: 2px;
+
 }
 
 .nav-menu li {
@@ -30,6 +35,7 @@
   text-decoration: none;
   position: relative;
   cursor: pointer;
+  
 }
 
 .nav-menu li::before {

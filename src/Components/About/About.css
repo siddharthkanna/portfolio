@@ -12,7 +12,7 @@
   text-align: justify;
 }
 
-.a-des .a-title {
+.a-title {
   padding-bottom: 15px;
   letter-spacing: 4px;
   font-size: 2rem;
@@ -60,6 +60,10 @@
   .a-des > p {
     font-size: 18px;
     font-weight: 200;
+  }
+
+  .a-title{
+    font-size: 1.8rem;
   }
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
