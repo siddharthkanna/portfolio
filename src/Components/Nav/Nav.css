@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');.header {
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,14 +20,15 @@
 .nav-menu {
   display: flex;
 }
-.sk{
-  font-family: 'Satisfy', cursive;}
+.sk {
+  font-family: 'Orbitron', sans-serif;
+}
 
 .header > h1 {
-  
   cursor: pointer;
-  letter-spacing: 2px;
-
+  color: aliceblue;
+  text-shadow: black;
+ 
 }
 
 .nav-menu li {
@@ -35,7 +38,6 @@
   text-decoration: none;
   position: relative;
   cursor: pointer;
-  
 }
 
 .nav-menu li::before {
@@ -73,6 +75,11 @@ ul {
     left: -100%;
     z-index: -3;
     transition: 0.4s;
+  }
+
+  .header > h1 {
+    font-size: 1.3rem;
+   
   }
 
   .nav-menu.active {

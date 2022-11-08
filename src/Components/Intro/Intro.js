@@ -23,7 +23,7 @@ function Intro() {
                 .typeString("Computer Science Student!")
                 .pauseFor(2000)
                 .deleteAll()
-                .typeString("Frontend Developer!l")
+                .typeString("Frontend Developer!")
                 .start();
             }}
           />
