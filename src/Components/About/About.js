@@ -11,7 +11,7 @@ function About() {
         <div className="a-des">
           <p>
             Hello! I'm Siddharth. Currently I'm pursuing my undergrad in Computer Science
-            and Engineering.I enjoy creating beautiful and reliable websites
+            and Information Technology.I enjoy creating beautiful and reliable websites
             for internet.<br />I like cricket and also love watching movies.<br />
             I'm enthusisatic about learnig new things and I'm persistently trying to teach and improve myself.
           </p>
