@@ -40,7 +40,7 @@ function Intro() {
             />
           </a>
           <a
-            href="www.linkedin.com/in/siddharth-kanna-823bb5219"
+            href="https://www.linkedin.com/in/siddharth-kanna-823bb5219"
             style={{ color: "white" }}
           >
             <AiOutlineLinkedin
