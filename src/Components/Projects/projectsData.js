@@ -1,11 +1,21 @@
 import covid from "../../Assets/ProjectsImg/Covid-19-Tracker.jpg";
 import got from "../../Assets/ProjectsImg/GOT.jpg";
 import netflix from "../../Assets/ProjectsImg/Netflix.jpg";
-import twitter from "../../Assets/ProjectsImg/Twitter.png";
+import commutify from "../../Assets/ProjectsImg/commutify.png";
 
 export const projectsData = [
   {
     id: 1,
+    projectName: "Commutify App",
+    projectDesc:
+      "A flutter ride-sharing application.Choose roles, manage vehicles, set prices, find matching rides.",
+    tags: ["Flutter", "Node.js", "MongoDB"],
+    code: "https://github.com/siddharthkanna/Commutify",
+    demo: "",
+    image: commutify,
+  },
+  {
+    id: 2,
     projectName: "Covid-19 Tracker ",
     projectDesc:
       "A single page app which shows the no of covid cases, made using React js.",
@@ -15,7 +25,7 @@ export const projectsData = [
     image: covid,
   },
   {
-    id: 2,
+    id: 3,
     projectName: "Netflix Clone",
     projectDesc:
       "This is a clone of Netflix website built using React.JS as a Front-end & Firebase as Back-end.",
@@ -25,7 +35,7 @@ export const projectsData = [
     image: netflix,
   },
   {
-    id: 3,
+    id: 4,
     projectName: "GotWiki",
     projectDesc:
       "A simple and basic React app which shows the basic info of the show 'Game of thrones'.Made by a GOT stan.",
@@ -33,14 +43,5 @@ export const projectsData = [
     code: "https://github.com/siddharthkanna/gotwiki",
     demo: "https://got-wiki.web.app/",
     image: got,
-  },
-  {
-    id: 4,
-    projectName: "TwitterBot",
-    projectDesc: "A Simple TwitterBot which likes and retweets.",
-    tags: ["Python", "tweepy"],
-    code: "https://github.com/siddharthkanna/TwitterBot-LikesAndRetweets",
-    demo: "",
-    image: twitter,
   },
 ];

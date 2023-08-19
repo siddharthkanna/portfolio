@@ -5,15 +5,20 @@ import { Fade } from "react-awesome-reveal";
 
 function About() {
   return (
-    <Fade delay={500} duration={1000}  >
-      <h1 className="a-title" id="aboutt" >02.About me</h1>
+    <Fade delay={500} duration={1000}>
+      <h1 className="a-title" id="aboutt">
+        02.About me
+      </h1>
       <div className="about">
         <div className="a-des">
           <p>
-            Hello! I'm Siddharth. Currently I'm pursuing my undergrad in Computer Science
-            and Information Technology.I enjoy creating beautiful and reliable websites
-            for internet.<br />I like cricket and also love watching movies.<br />
-            I'm enthusisatic about learnig new things and I'm persistently trying to teach and improve myself.
+            Hello, I'm Siddharth, currently pursuing my undergraduate studies in
+            Computer Science and Information Technology. Alongside my passion
+            for crafting stunning and dependable websites for the internet, I
+            also have an affinity for developing engaging applications. Apart
+            from my interest in cricket and fondness for movies, I'm
+            enthusiastic about embracing new knowledge and continually strive to
+            enhance and expand my skills.
           </p>
         </div>
         <div className="a-img">

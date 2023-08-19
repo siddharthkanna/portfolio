@@ -1,10 +1,9 @@
 import React from "react";
 import "./Skills.css";
 import { FaReact, FaGit } from "react-icons/fa";
-import { SiHtml5, SiCplusplus } from "react-icons/si";
+import { SiHtml5, SiCplusplus, SiMongodb, SiFlutter } from "react-icons/si";
 import { DiCss3, DiPython } from "react-icons/di";
-import { SiJavascript, SiFirebase, SiJava } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
+import { SiJavascript, SiFirebase, SiJava, SiNodedotjs } from "react-icons/si";
 import { Fade } from "react-awesome-reveal";
 
 function Skills() {
@@ -36,10 +35,7 @@ function Skills() {
             <FaGit />
             <h5>Git</h5>
           </div>
-          <div>
-            <VscGithub />
-            <h5>Github</h5>
-          </div>
+
           <div>
             <SiFirebase />
             <h5>Firebase</h5>
@@ -55,6 +51,18 @@ function Skills() {
           <div>
             <SiJava />
             <h5>Java</h5>
+          </div>
+          <div>
+            <SiFlutter />
+            <h5>Flutter</h5>
+          </div>
+          <div>
+            <SiNodedotjs />
+            <h5>Node js</h5>
+          </div>
+          <div>
+            <SiMongodb />
+            <h5>MongoDB</h5>
           </div>
         </div>
       </div>

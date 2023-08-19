@@ -1,15 +1,18 @@
+/* Base styles */
 .about {
   color: aliceblue;
+  margin-top: 2em;
   display: grid;
   grid-template-columns: 3fr 1.4fr;
-  grid-gap: 40px;
 }
 
 .a-des {
   display: flex;
   flex-direction: column;
-  margin: 90px;
+  margin: 70px 0 0 140px;
+  padding: 0 20px;
   text-align: justify;
+  max-width: 60%;
 }
 
 .a-title {
@@ -22,13 +25,15 @@
 }
 
 .a-des > p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 200;
 }
 
 .a-img {
   display: block;
   width: 100%;
+  margin-top: 20px;
+  margin-left: -50px;
 }
 
 .a-img > img {
@@ -36,70 +41,37 @@
   max-width: 100%;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1024px) {
   .about {
-    display: flex;
-    flex-direction: column;
-    height: 75vh;
+    grid-template-columns: 1fr;
+    align-items: center; 
   }
 
   .a-des {
-    margin: 35px;
-    text-align: left;
+    margin: 30px auto; 
+    max-width: 70%;
   }
+
   .a-img {
-    display: inline-block;
-    margin-bottom: 50px;
-  }
-
-  .a-img > img {
-    width: 200px;
-    height: 250px;
-  }
-
-  .a-des > p {
-    font-size: 18px;
-    font-weight: 200;
-  }
-
-  .a-title{
-    font-size: 1.8rem;
-  }
-}
-@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
-  .about {
-    display: grid;
-    grid-template-columns: 2fr 1.4fr;
-    height: 60vh;
-    text-align: left;
-  }
-
-  .a-des {
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
-    padding-left: 15px;
-    text-align: left;
-  }
-
-  .a-des > p {
-    font-size: 18px;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-top: 20px; /* Maintain the top margin */
+    margin-left: 0; /* Reset the left margin */
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .about {
-    display: grid;
-    grid-template-columns: 3fr 1.5fr;
-    height: 45vh;
-    text-align: left;
-  }
-
+@media only screen and (max-width: 768px) {
   .a-des {
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-    padding-left: 15px;
-    text-align: left;
+    font-size: 1.2rem;
+    max-width: 75%; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .a-des >p{
+    font-size: 1.2rem;
+  }
+  .a-des {
+    max-width: 85%; 
   }
 }
